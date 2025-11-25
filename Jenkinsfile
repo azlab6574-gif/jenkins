@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git branch: 'main', url: 'https://github.com/<your-github-user>/terraform-jenkins-lab.git'
+        git branch: 'main', url: 'https://github.com/azlab6574-gif/jenkins/blob/main'
       }
     }
 
@@ -62,3 +62,4 @@ pipeline {
 
   }
 }
+
